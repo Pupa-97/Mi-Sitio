@@ -1,0 +1,33 @@
+// 🎨 MIXINS GLOBALES
+
+// 🔁 Transición suave
+@mixin transition($property: color, $time: 0.3s) {
+  transition: $property $time ease-in-out;
+}
+
+// 🖼️ Imagen redondeada
+@mixin rounded-img($radius: 10px) {
+  border-radius: $radius;
+}
+
+// 📱 Espaciado en secciones
+@mixin section-spacing($top: 2rem, $bottom: 2rem) {
+  padding-top: $top;
+  padding-bottom: $bottom;
+}
+
+// 📦 Padding lateral para contenedores
+@mixin container-padding($padding: 1rem) {
+  padding-left: $padding;
+  padding-right: $padding;
+}
+
+// 📏 Texto responsivo
+@mixin texto-responsivo($size-sm, $size-md) {
+  font-size: $size-sm;
+
+  @media (min-width: 768px) {
+    font-size: $size-md;
+  }
+}
+

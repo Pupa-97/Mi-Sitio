@@ -31,8 +31,22 @@ body .container {
   padding-right: 1rem;
 }
 
-.card .card-text {
-  font-size: 0.95rem;
+.navbar {
+  background-color: #59002e !important;
+}
+.navbar .nav-link {
+  color: #ffffff !important;
+  transition: color 0.3s ease-in-out;
+}
+.navbar .nav-link:hover {
+  color: #ffb3d9 !important;
+}
+
+footer {
+  background-color: #59002e;
+  color: white;
+  text-align: center;
+  padding: 1rem;
 }
 
 form {
@@ -44,22 +58,8 @@ form textarea {
   font-size: 1rem;
 }
 
-.navbar {
-  background-color: #59002e !important;
-}
-.navbar .nav-link {
-  color: #ffffff !important;
-  transition: color 0.3s;
-}
-.navbar .nav-link:hover {
-  color: #ffb3d9 !important;
-}
-
-footer {
-  background-color: #59002e;
-  color: white;
-  text-align: center;
-  padding: 1rem;
+.card .card-text {
+  font-size: 0.95rem;
 }
 
 /*# sourceMappingURL=style.css.map */

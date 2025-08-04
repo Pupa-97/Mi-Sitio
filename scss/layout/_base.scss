@@ -1,4 +1,5 @@
 @use "../variables" as *;
+@use "../mixins" as *;
 
 body {
   background-color: $rosa-claro;
@@ -11,16 +12,14 @@ body {
   }
 
   img {
-    border-radius: 10px;
+    @include rounded-img;
   }
 
   section {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    @include section-spacing;
   }
 
   .container {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    @include container-padding;
   }
 }

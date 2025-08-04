@@ -1,8 +1,8 @@
 @use "variables";
+@use "mixins";
 @use "layout/base"; 
-@use "layout/cards";
-@use "layout/form";
 @use "layout/navbar";
 @use "layout/footer";
+@use "layout/form";
+@use "layout/cards";
 @use "layout/buttons/primary";
-@use "mixins" as *;
