@@ -1,18 +1,65 @@
-/* Error: The target selector was not found.
- * Use "@extend %bold-rosa !optional" to avoid this error.
- *   ,
- * 4 |     @extend %bold-rosa;
- *   |     ^^^^^^^^^^^^^^^^^^
- *   '
- *   scss\layout\_cards.scss 4:5  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: The target selector was not found.\aUse "@extend %bold-rosa !optional" to avoid this error.\a   \2577 \a 4 \2502      @extend %bold-rosa;\d\a   \2502      ^^^^^^^^^^^^^^^^^^\a   \2575 \a   scss\\layout\\_cards.scss 4:5  root stylesheet';
+/* VARIABLES */
+.card .card-title, body h1, body h2, body h3, body h4, body h5 {
+  font-weight: bold;
+  color: #b30059;
 }
+
+.btn-primary {
+  background-color: #b30059;
+  border-color: #b30059;
+}
+.btn-primary:hover {
+  background-color: #ff3385;
+  border-color: #ff3385;
+}
+
+body {
+  background-color: #fff0f5;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.1rem;
+  color: #333;
+}
+body img {
+  border-radius: 10px;
+}
+body section {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+body .container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.card .card-text {
+  font-size: 0.95rem;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+form input,
+form textarea {
+  font-size: 1rem;
+}
+
+.navbar {
+  background-color: #59002e !important;
+}
+.navbar .nav-link {
+  color: #ffffff !important;
+  transition: color 0.3s;
+}
+.navbar .nav-link:hover {
+  color: #ffb3d9 !important;
+}
+
+footer {
+  background-color: #59002e;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+/*# sourceMappingURL=style.css.map */
