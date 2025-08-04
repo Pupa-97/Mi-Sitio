@@ -1,0 +1,11 @@
+@use "../../variables" as *;
+
+.card {
+  .card-title {
+    @extend %bold-rosa;
+  }
+
+  .card-text {
+    font-size: 0.95rem;
+  }
+}

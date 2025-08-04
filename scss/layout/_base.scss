@@ -1,0 +1,26 @@
+@use "../variables" as *;
+
+body {
+  background-color: $rosa-claro;
+  font-family: $fuente-base;
+  font-size: 1.1rem;
+  color: #333;
+
+  h1, h2, h3, h4, h5 {
+    @extend %bold-rosa;
+  }
+
+  img {
+    border-radius: 10px;
+  }
+
+  section {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}

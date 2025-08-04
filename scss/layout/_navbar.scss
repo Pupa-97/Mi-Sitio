@@ -1,0 +1,14 @@
+@use "../variables" as *;
+
+.navbar {
+  background-color: $bordo !important;
+
+  .nav-link {
+    color: #ffffff !important;
+    transition: color 0.3s;
+
+    &:hover {
+      color: $rosa-claro-hover !important;
+    }
+  }
+}

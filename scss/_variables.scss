@@ -1,0 +1,22 @@
+/* VARIABLES */
+$rosa-claro: #fff0f5;
+$rosa-oscuro: #b30059;
+$bordo: #59002e;
+$rosa-hover: #ff3385;
+$rosa-claro-hover: #ffb3d9;
+$fuente-base: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+%bold-rosa {
+  font-weight: bold;
+  color: $rosa-oscuro;
+}
+
+%btn-rosa {
+  background-color: $rosa-oscuro;
+  border-color: $rosa-oscuro;
+
+  &:hover {
+    background-color: $rosa-hover;
+    border-color: $rosa-hover;
+  }
+}

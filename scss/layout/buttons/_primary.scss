@@ -1,0 +1,5 @@
+@use "../../variables" as *;
+
+.btn-primary {
+  @extend %btn-rosa;
+}

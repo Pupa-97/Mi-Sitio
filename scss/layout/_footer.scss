@@ -1,0 +1,8 @@
+@use "../variables" as *;
+
+footer {
+  background-color: $bordo;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
