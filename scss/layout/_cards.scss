@@ -8,4 +8,10 @@
   .card-text {
     font-size: 0.95rem;
   }
+
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: scale(1.05);
+  }
 }

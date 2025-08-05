@@ -2,4 +2,9 @@
 
 .btn-primary {
   @extend %btn-rosa;
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: rotate(-1deg) scale(1.05);
+  }
 }

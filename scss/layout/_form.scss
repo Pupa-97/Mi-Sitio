@@ -8,3 +8,8 @@ form {
     font-size: 1rem;
   }
 }
+
+article {
+  background: linear-gradient(135deg, $rosa-claro, $rosa-claro-hover);
+  transition: background 0.5s ease;
+}

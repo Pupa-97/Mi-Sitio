@@ -1,0 +1,75 @@
+// KEYFRAMES
+@keyframes drop-in {
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.03);
+  }
+}
+
+// ANIMACIONES APLICADAS
+
+// Navbar con entrada suave desde arriba
+.navbar {
+  transform: translateY(-10px);
+  animation: drop-in 0.6s ease-out forwards;
+}
+
+// Imagen con skew al hacer hover
+img {
+  transition: transform 0.3s ease-in-out;
+
+  &:hover {
+    transform: skew(-2deg, -2deg);
+  }
+}
+
+// Fondo con gradiente suave
+body {
+  background: linear-gradient(to bottom, #fff0f5, #ffe6f0);
+}
+
+// Títulos con animación de pulso
+h1 {
+  animation: pulse 2s infinite;
+}
+
+// Botones con scale en hover
+.btn-primary {
+  transition: transform 0.2s ease-in-out;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+// Cards con animación de scale
+.card {
+  transition: transform 0.3s ease-in-out;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.animated-title {
+  animation: fadeInUp 1.5s ease-in-out both;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
