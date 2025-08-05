@@ -12,14 +12,14 @@ body {
   }
 
   img {
-    @include rounded-img;
+    @include rounded-img();
   }
 
   section {
-    @include section-spacing;
+    @include section-spacing();
   }
 
   .container {
-    @include container-padding;
+    @include container-padding();
   }
 }
